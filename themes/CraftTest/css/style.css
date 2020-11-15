@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: orange;
+}
+
+body{
+    background: rgb(117,57,121);
+    background: linear-gradient(to top, rgba(117,57,121,1) 22%, rgba(121,9,101,1) 58%);
+    color:white;
+    min-height: 100vh;
+}
+
+#header-line{
+    height: 80px;
+}
+
+#reg-form, #menu{
+    background: linear-gradient( rgba(35,43,85,0.75), rgba(35,43,85,0.95)), no-repeat center center;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #000000;
+}
+
+.form-btn{
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 8px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    background-color: #753979;
+}
+
+.form-title{
+    font-size: 1.8em;
+}
+
+.table tbody tr{
+    color: orange;
+}
+
+.error{color: red;}
